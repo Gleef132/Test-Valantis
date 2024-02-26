@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/TestValantis',
-  distDir: 'out',
+  distDir: 'dist',
 };
 
 module.exports = nextConfig
