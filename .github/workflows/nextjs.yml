@@ -77,9 +77,9 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
      
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
-          path: ./out
+          path: ./dist
 
   # Deployment job
   deploy:
